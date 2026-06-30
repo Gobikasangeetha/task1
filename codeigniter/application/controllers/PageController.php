@@ -30,5 +30,9 @@ $data['body']="same file but its inside the body";
 $this->load->view('demopage',$data );
 
 }
-
+ 
+public function userpage()
+{
+    $this->load->view('userpage');
+}
 }

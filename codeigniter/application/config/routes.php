@@ -67,4 +67,10 @@ $route['employee/delete/(:any)']='frontend/Employeecontroller/delete/$1';
 //login and register for user and admin
 $route['register']['GET']= 'Auth/RegisterController/index';
 $route['register']['POST']= 'Auth/RegisterController/register';
+
+$route['login']['GET']='Auth/LoginController/index';
+$route['login']['POST']='Auth/LoginController/login';
+
+$route['userpage']['GET']='PageController/userpage';
+
  
